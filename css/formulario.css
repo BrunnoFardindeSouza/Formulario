@@ -1,0 +1,91 @@
+:root{
+    --cor1:black;
+    --cor2:#6464ff;
+    
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: var(--cor2);
+    
+}
+header{
+    text-shadow: 1px 1px black;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+
+}
+main{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 7px #000000a6;
+    font-size: 1.3em;
+    height: auto;
+    width:96%;
+    border-radius: 3px;
+    margin: 40px auto;
+    
+    
+}
+footer > p{
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center;
+
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: var(--cor1);
+    
+}
+#p{
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+section#formulario{
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    margin-top: 10%;
+
+}
+section#formulario > form{
+    width: 100%;
+}
+section > form > input{
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+section > form > input.coleta-dados{
+    cursor: pointer;
+    font-size: 0.8em;
+    box-shadow: 1px  1px 3px  #000000a6;
+    height: 38px;
+    width: 120px;
+
+}
