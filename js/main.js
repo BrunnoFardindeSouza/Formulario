@@ -6,6 +6,7 @@ function tm(){
     if(innerWidth > 524){
         menu.style.display='block'
     }else{
+        
         itens_menu.style.diplay='none'
     }
 }
