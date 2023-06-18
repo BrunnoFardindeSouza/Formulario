@@ -1,3 +1,24 @@
+@media screen and (min-width:524px){
+    #burguer{
+        display: none;
+    }
+    menu{
+        height: 50px;
+    }
+    menu ul li{
+        border-bottom: 0px;
+        margin-left: 50px;
+        border-radius: 4px;
+        width: 120px;
+        display: inline-block;
+    }
+    menu ul li a{
+        padding-top: 3px;
+        text-align: center;
+        display: block;
+    }
+    
+}
 @media screen and (min-width:958px){
     main{
         width: 50%;
