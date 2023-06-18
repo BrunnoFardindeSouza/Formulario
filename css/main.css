@@ -29,17 +29,28 @@ header h1{
     text-align: center;
     color: white;
 }
-menu{
-    height:40px;
-    width: 100%;
+#burguer{
+    cursor: pointer;
+    padding: 5px;
+    color: white;
     background-color: black;
+    text-align: center;
+}
+#burguer:hover{
+    background-color: var(--cor2);
+}
+menu{
+    background-color: black;
+    height:auto;
+    margin:  auto;
+    width: 100%;
 }
 menu ul li{
-    padding: 4px;
-    height: 30px;
-    width: 100px;
-    margin-left: 50px;
-    display: inline-block;
+    line-height: 28px;
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 40px;
 }
 menu ul li:hover{
     border-radius: 4px;
@@ -62,4 +73,28 @@ footer{
     height: 60px;
     width: 100%;
     background-color: black;
+}
+
+
+
+@media screen and (min-width:524px){
+    #burguer{
+        display: none;
+    }
+    menu{
+        height: 50px;
+    }
+    menu ul li{
+        border-bottom: 0px;
+        margin-left: 50px;
+        border-radius: 4px;
+        width: 120px;
+        display: inline-block;
+    }
+    menu ul li a{
+        padding-top: 3px;
+        text-align: center;
+        display: block;
+    }
+    
 }
